@@ -1,0 +1,19 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary checkpoints
+.ipynb_checkpoints/
+
+# macOS Finder metadata
+.DS_Store
+
+# Local environment settings and secrets
+.env
+.env.*
+!.env.example
