@@ -16,3 +16,7 @@ projects/*/data/*.csv
 .env.*
 !.env.example
 .DS_Store
+
+# Downloaded Excel datasets
+projects/*/data/*.xlsx
+projects/*/data/*.xls

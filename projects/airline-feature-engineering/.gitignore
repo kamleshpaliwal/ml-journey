@@ -1,0 +1,16 @@
+# Local Python environment and generated files
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Do not commit downloaded source datasets
+/data/*.xlsx
+/data/*.xls
+/data/*.csv
+
+# Local settings and macOS metadata
+.env
+.env.*
+!.env.example
+.DS_Store
