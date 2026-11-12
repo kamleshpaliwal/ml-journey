@@ -22,4 +22,9 @@ In VS Code, open `notebooks/feature_engineering.ipynb` and select the `.venv` Py
 
 ## Notebook progress
 
-- `notebooks/feature_engineering.ipynb` — setup and initial dataset inspection are in place; later feature-engineering sections will be added step by step.
+- `notebooks/feature_engineering.ipynb` — covers the full workflow so far:
+  1. Setup, dataset inspection, and missing-value handling
+  2. Feature transformation (label merging, one-hot encoding, stop-count encoding)
+  3. Date and time features (duration in minutes, departure/arrival parts, time-of-day groups, calendar fields)
+  4. Feature selection with a correlation heatmap and correlations with `Price`
+  5. Feature extraction with PCA (explained variance, 95% variance target, 16 components)
